@@ -52,11 +52,15 @@ onStop() - Останавливает показ приложения польз
 
 Развернуть приложение:
 
-2024-02-24 21:08:28.657  6674-6674  main activity log       com.example.businesscard             D  onStart смс в логе
+2024-02-24 22:31:08.134  7859-7859  main activity log       com.example.businesscard             D  onRestart смс в логе
 
-2024-02-24 21:08:28.658  6674-6674  main activity log       com.example.businesscard             D  onResume смс в логе
+2024-02-24 22:31:08.134  7859-7859  main activity log       com.example.businesscard             D  onStart смс в логе
 
-Вызывает два метода "создания" приложения
+2024-02-24 22:31:08.134  7859-7859  main activity log       com.example.businesscard             D  onResume смс в логе
+
+Вызывает два метода "создания" приложение и метод onRestart()
+
+onRestart() - вызывается, тогда, когда нужно восстановить состояние активити после его остановки
 
 onStart() - отображает приложение пользователю
 

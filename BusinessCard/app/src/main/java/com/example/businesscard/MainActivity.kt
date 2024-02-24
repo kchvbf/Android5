@@ -42,7 +42,12 @@ class MainActivity : ComponentActivity() {
         }
         Log.d(getString(R.string.teg), "onCreate смс в логе")
 
-        finish()
+        //finish()
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        Log.d(getString(R.string.teg), "onRestart смс в логе")
     }
     override fun onStart() {
         super.onStart()
