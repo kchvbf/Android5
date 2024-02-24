@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BusinessCard</string>
+
+    <string name="begin">Открытка</string>
+    <string name="name">Качаев Б.Ф.</string>
+    <string name="sms">Даже в самых смелых мечтах я не мог себе представить, что увижу такую красивую улыбку, как твоя.</string>
+    <string name="number">+7 (777) 777-77-77</string>
+    <string name="media">\@kachaev</string>
+    <string name="mail">kachaev@yandex.ru</string>
+    <string name="teg">main activity log</string>
+</resources>
+
