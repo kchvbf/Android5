@@ -4,7 +4,7 @@
 
 ![S3](https://github.com/kchvbf/Android5/assets/109752188/ab61ca8a-7aad-48fb-b78e-78042b7de97b)
 
-![S4](https://github.com/kchvbf/Android5/assets/109752188/9f393e90-2096-4661-bb1c-3c9fd5af4c57)
+![S4](https://github.com/kchvbf/Android5/assets/109752188/6b921fe4-62f0-469c-a7db-f2ed2577b36c)
 
 ![S5](https://github.com/kchvbf/Android5/assets/109752188/bbc9af28-fa78-460d-aca0-e30fa7683207)
 
@@ -62,11 +62,15 @@ onStop() - Останавливает показ приложения польз
 
 Развернуть приложение:
 
-2024-02-24 21:08:28.657  6674-6674  main activity log       com.example.businesscard             D  onStart смс в логе
+2024-02-24 22:31:08.134  7859-7859  main activity log       com.example.businesscard             D  onRestart смс в логе
 
-2024-02-24 21:08:28.658  6674-6674  main activity log       com.example.businesscard             D  onResume смс в логе
+2024-02-24 22:31:08.134  7859-7859  main activity log       com.example.businesscard             D  onStart смс в логе
 
-Вызывает два метода "создания" приложения
+2024-02-24 22:31:08.134  7859-7859  main activity log       com.example.businesscard             D  onResume смс в логе
+
+Вызывает два метода "создания" приложение и метод onRestart()
+
+onRestart() - вызывается, тогда, когда нужно восстановить состояние активити после его остановки
 
 onStart() - отображает приложение пользователю
 
